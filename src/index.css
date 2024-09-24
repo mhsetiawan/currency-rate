@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+th {
+  @apply border-b-2 border-white py-5;
+}
+td {
+  @apply border-b-[1px] border-white py-2 sm:px-3 px-1;
+}
